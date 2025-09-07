@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
   const switcher = document.getElementById('languageSwitcher');
-  if (!switcher) return;
 
   // Load default language
   loadLanguage(switcher.value);
